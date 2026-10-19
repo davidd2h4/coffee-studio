@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# build output (Vercel builds from source)
+dist
+dist-ssr
+*.tsbuildinfo
+
+# environment / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Vercel CLI
+.vercel
+
+# logs & OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
